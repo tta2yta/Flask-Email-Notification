@@ -1,0 +1,11 @@
+@charset "utf-8";
+	.imagebotright
+{
+	background-image : url(imagebotright.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 800px;
+	top : 1544px;
+	width : 301px;
+	height : 275px;
+}

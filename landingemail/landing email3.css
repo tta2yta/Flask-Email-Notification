@@ -1,0 +1,372 @@
+.NormalCharacterStyle
+{
+  font-family : Lato;
+  font-size : 24px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle1
+{
+  font-family : Lato;
+  font-size : 12px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle6
+{
+  font-family : Lato;
+  font-weight : bold;
+  font-size : 20px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle13
+{
+  font-family : BiomeW04-Light;
+  font-size : 28px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle10
+{
+  font-family : Lato;
+  font-weight : bold;
+  font-size : 12px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle11
+{
+  font-family : Lato;
+  font-size : 26px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle12
+{
+  font-family : Myriad Pro;
+  font-size : 20px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle5
+{
+  font-family : BiomeW04-Light;
+  font-size : 60px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.instagrampath_1_
+{
+  background-image : url(instagrampath_1_.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 863px;
+  top : 1804px;
+  width : 18px;
+  height : 18px;
+}
+.instagrampath_2_
+{
+  background-image : url(instagrampath_2_.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 854px;
+  top : 1796px;
+  width : 35px;
+  height : 35px;
+}
+.imagetopright_1_
+{
+  background-image : url(imagetopright_1_.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 800px;
+  top : 1545px;
+  width : 300px;
+  height : 273px;
+}
+.NormalCharacterStyle2
+{
+  font-family : Lato;
+  font-size : 15px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle4
+{
+  font-family : Lato;
+  font-weight : bold;
+  font-size : 20px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle3
+{
+  font-family : Lato;
+  font-size : 17px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.imagetopleft
+{
+  background-image : url(imagetopleft.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 31px;
+  top : 362px;
+  width : 234px;
+  height : 236px;
+}
+.imagetopright
+{
+  background-image : url(imagetopright.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 849px;
+  top : 320px;
+  width : 203px;
+  height : 271px;
+}
+.ladder
+{
+  background-image : url(ladder.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 733px;
+  top : 903px;
+  width : 240px;
+  height : 227px;
+}
+.challengeroom
+{
+  background-image : url(challengeroom.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 449px;
+  top : 902px;
+  width : 240px;
+  height : 227px;
+}
+.tournament
+{
+  background-image : url(tournament.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 165px;
+  top : 898px;
+  width : 240px;
+  height : 227px;
+}
+.NormalCharacterStyle7
+{
+  font-family : Lato;
+  font-weight : bold;
+  font-size : 20px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle8
+{
+  font-family : Lato;
+  font-size : 20px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle9
+{
+  font-family : Lato;
+  font-weight : bold;
+  font-size : 12px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.copamoney
+{
+  background-image : url(copamoney.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  opacity : 0.5;
+  position : absolute ;
+  left : 102px;
+  top : 1155px;
+  width : 217px;
+  height : 217px;
+  filter: alpha(opacity=50) progid:DXImageTransform.Microsoft.Alpha(opacity=50) ;
+}
+.footerbg
+{
+  background : #1E1A1A;
+  background : rgba(30, 26, 26, 1);
+  position : absolute ;
+  left : 0px;
+  top : 1769px;
+  width : 1080px;
+  height : 130px;
+}
+.fbpath
+{
+  background-image : url(fbpath.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 910px;
+  top : 1796px;
+  width : 35px;
+  height : 35px;
+}
+.discordbutton
+{
+  background : -moz-linear-gradient(19.76% -2164.94% 0deg,rgba(101, 85, 196, 1) 0%,rgba(77, 95, 163, 1) 100%);
+  background : -webkit-linear-gradient(0deg, rgba(101, 85, 196, 1) 0%, rgba(77, 95, 163, 1) 100%);
+  background : -webkit-gradient(linear,19.76% -2164.94% ,95.56% -2164.94% ,color-stop(0,rgba(101, 85, 196, 1) ),color-stop(1,rgba(77, 95, 163, 1) ));
+  background : -o-linear-gradient(0deg, rgba(101, 85, 196, 1) 0%, rgba(77, 95, 163, 1) 100%);
+  background : -ms-linear-gradient(0deg, rgba(101, 85, 196, 1) 0%, rgba(77, 95, 163, 1) 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#6555C4', endColorstr='#4D5FA3' ,GradientType=0)";
+  background : linear-gradient(90deg, rgba(101, 85, 196, 1) 0%, rgba(77, 95, 163, 1) 100%);
+  position : absolute ;
+  left : 479px;
+  top : 1793px;
+  width : 238px;
+  height : 41px;
+  border-radius : 9px;
+  -moz-border-radius : 9px;
+  -webkit-border-radius : 9px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6555C4',endColorstr='#4D5FA3' , GradientType=1);
+}
+.twitchpath_2_
+{
+  background-image : url(twitchpath_2_.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 973px;
+  top : 1800px;
+  width : 25px;
+  height : 26px;
+}
+.twpath
+{
+  background-image : url(twpath.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 1017px;
+  top : 1796px;
+  width : 35px;
+  height : 35px;
+}
+.twitchpath_1_
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  position : absolute ;
+  left : 983px;
+  top : 1810px;
+  width : 2px;
+  height : 6px;
+  border-radius : 0px;
+  -moz-border-radius : 0px;
+  -webkit-border-radius : 0px;
+}
+.background
+{
+  background : #525254;
+  background : rgba(82, 82, 84, 1);
+  position : absolute ;
+  left : 0px;
+  top : 0px;
+  width : 1080px;
+  height : 1900px;
+}
+.twitchpath
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  position : absolute ;
+  left : 990px;
+  top : 1810px;
+  width : 2px;
+  height : 6px;
+  border-radius : 0px;
+  -moz-border-radius : 0px;
+  -webkit-border-radius : 0px;
+}
+.twitchpath_3_
+{
+  background-image : url(twitchpath_3_.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 967px;
+  top : 1795px;
+  width : 35px;
+  height : 35px;
+}
+.instagrampath
+{
+  background-image : url(instagrampath.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 879px;
+  top : 1810px;
+  width : 6px;
+  height : 6px;
+}
+.headerlogo
+{
+  background-image : url(headerlogo.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : -3px;
+  top : -59px;
+  width : 1089px;
+  height : 709px;
+}
+.playroommain
+{
+  background-image : url(playroommain.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  position : absolute ;
+  left : 201px;
+  top : 243px;
+  width : 679px;
+  height : 75px;
+}
+.cv
+{
+  background-image : url(cv.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  opacity : 0.59;
+  position : absolute ;
+  left : 852px;
+  top : 1417px;
+  width : 97px;
+  height : 77px;
+  filter: alpha(opacity=59) progid:DXImageTransform.Microsoft.Alpha(opacity=59) ;
+}
+.ai
+{
+  background-image : url(ai.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+  opacity : 0.59;
+  position : absolute ;
+  left : 707px;
+  top : 1414px;
+  width : 78px;
+  height : 81px;
+  filter: alpha(opacity=59) progid:DXImageTransform.Microsoft.Alpha(opacity=59) ;
+}

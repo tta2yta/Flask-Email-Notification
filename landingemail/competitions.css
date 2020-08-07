@@ -1,0 +1,55 @@
+@charset "utf-8";
+	.NormalCharacterStyle
+{
+	font-family : Lato;
+	font-weight : bold;
+	font-size : 20px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle1
+{
+	font-family : Lato;
+	font-weight : bold;
+	font-size : 20px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle2
+{
+	font-family : Lato;
+	font-weight : bold;
+	font-size : 20px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+}
+.ladder
+{
+	background-image : url(ladder.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 703px;
+	top : 902px;
+	width : 242px;
+	height : 229px;
+}
+.challengeroom
+{
+	background-image : url(challengeroom.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 419px;
+	top : 901px;
+	width : 242px;
+	height : 229px;
+}
+.tournament
+{
+	background-image : url(tournament.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 135px;
+	top : 898px;
+	width : 242px;
+	height : 228px;
+}
