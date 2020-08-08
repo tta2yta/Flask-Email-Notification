@@ -1,0 +1,41 @@
+@charset "utf-8";
+	.fb
+{
+	background-image : url(fb.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 910px;
+	top : 1799px;
+	width : 36px;
+	height : 37px;
+}
+.twitch
+{
+	background-image : url(twitch.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 967px;
+	top : 1799px;
+	width : 36px;
+	height : 36px;
+}
+.ig
+{
+	background-image : url(ig.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 854px;
+	top : 1799px;
+	width : 37px;
+	height : 36px;
+}
+.tw
+{
+	background-image : url(tw.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1017px;
+	top : 1800px;
+	width : 37px;
+	height : 36px;
+}
