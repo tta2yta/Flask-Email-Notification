@@ -634,3 +634,13 @@ position: relative;
         margin-top:0px;
     }
  }
+
+ @media only screen and (max-width: 648px) {
+    .midd{
+        height:40%;
+    }
+     #img-header{
+         height: 100%;
+     }
+    
+ }
