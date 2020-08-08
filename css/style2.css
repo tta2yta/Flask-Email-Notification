@@ -96,24 +96,9 @@ body{
     display: block;
     margin: 0 auto;
     margin-top: -10px;
+    z-index: 10s;
 
 }
-
-/* #img-icon-challenge{
-    width: 30%;
-    margin-top: -10px;
-}
-#img-icon-match{
-
-    width: 30%;
-    margin-top: -10px;
-}
-
-#img-icon-ladder{
-    width: 30%;
-    margin-top: -10px;
-} */
-
 
 h5{
    text-align: center;
@@ -130,6 +115,7 @@ h5{
     border-left: 1px solid rgba(53, 53, 56, 0.8);
     height: 30%;
     background-color: #0B0B35;
+    z-index: -10;
 }
 
 .copomoney-img img{
@@ -143,6 +129,7 @@ h5{
     border-right: 1px solid rgba(53, 53, 56, 0.8);
     height: 30%;
     background-color: #0B0B35;
+    z-index: -10;
 }
 .copomoney-text p{
     margin-top: 25px;
@@ -154,12 +141,12 @@ h5{
 }
 .col-4.ai-text{
     border-left: 1px solid rgba(53, 53, 56, 0.8);
-    height: 30.5%;
+    height: 22%;
     background-color: #0B0B35;
 }
 .col-2.ai-img{
     border-right: 1px solid rgba(53, 53, 56, 0.8);
-    height: 30.5%;
+    height: 22%;
     background-color: #0B0B35;
 }
 .ai-text{
@@ -240,10 +227,10 @@ h5{
     padding-top:30px;
     color : #FFFFFF;
     color : rgb(255, 255, 255);
-    margin-right: -40px;
+    margin-right: 0%;
 }
 .footer-top{
-    height: 20%;
+    height: 14%;
 }
 .footer-text{
     background : #1E1A1A;
@@ -334,6 +321,17 @@ h5{
       .img-bot-text p{
           padding-top: 5px;
       }
+      .col-4.ai-text{
+        border-left: 1px solid rgba(53, 53, 56, 0.8);
+        height: 25%;
+        background-color: #0B0B35;
+    }
+    .col-2.ai-img{
+        border-right: 1px solid rgba(53, 53, 56, 0.8);
+        height: 25%;
+        background-color: #0B0B35;
+    }
+      
   }
 
 
@@ -361,10 +359,23 @@ h5{
         padding-top: 5px;
     }
     .col-3.parag-content-img-1, .col-3.parag-content-img-2{
-        height: 20%; 
-        color: red;
-        
-    
+        height: 25%; 
+        /* color: red;  */
+    }
+    .col-2.copomoney-img{
+        height: 25%;
+          /* border: 1px solid red; */
+    }
+    .col-4.copomoney-text{
+        height: 25%;
+        /* border: 1px solid red; */
+    }
+    #img-icon-cop{
+      margin: auto;
+      padding: auto;  
+    }
+    .footer-top{
+        height: 14%;
     }
   }
 
@@ -429,6 +440,13 @@ h5{
     .img-bot-text p{
         padding-top: 0px;
         font-size:25px;
+    }
+    .footer-btn button{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .footer-top{
+        height: 20%;
     }
   }
 
@@ -522,7 +540,7 @@ position: relative;
 
 .col-4.copomoney-text{
     height: fit-content;
-    color: red;
+    /* color: red; */
 }
 .copomoney-text p{
     display: block;
@@ -600,7 +618,7 @@ position: relative;
         height: fit-content;
     }
     .footer-top{
-        height: 8%;
+        height: 10%;
     }
     .footer-text{
         text-align: center;
@@ -613,5 +631,6 @@ position: relative;
     }
     .footer-btn-icon{
         text-align: center;
+        margin-top:0px;
     }
  }
