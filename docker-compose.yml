@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+
+  flask:
+    build: ./mail-notification
+    container_name: mail-notification
+    restart: always
+    environment:
+      - APP_NAME=MyFlaskApp
+    expose:
+      - 8080

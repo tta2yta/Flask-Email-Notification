@@ -1,0 +1,18 @@
+from alpine:latest
+
+RUN apk add cmd:pip3 --no-cache python3-dev \
+    && pip3 install --upgrade pip
+
+WORKDIR /app
+
+COPY . /app
+
+RUN pip3 --no-cache-dir install -r requirnments.txt 
+
+EXPOSE 5000
+ENV FLASK_APP /app/app/
+ENV FLASK_DEBUG 1
+
+# ENTRYPOINT ["flask run"]
+# CMD ["--host=127.0.0.1"]
+CMD ["flask", "run", "--host", "127.0.0.1", "--port", "5000"]

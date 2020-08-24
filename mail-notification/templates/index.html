@@ -1,0 +1,449 @@
+<htm>
+    <head><title></title>
+    
+        <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"> -->
+        <!-- <link rel="stylesheet" type="text/css" href="https://drive.google.com/uc?id=1NEygov0GTw7KrrgNkBWlG50kkO38_Pl9"> -->
+       
+       <style>
+           * {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(82, 82, 84, 1);
+    z-index: -20;
+}
+.container-main{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* height: 100%; */
+    background-color:  rgba(82, 82, 84, 1);
+}
+.header{
+    display: flex;
+    width: 100%;
+}
+
+
+.midd{
+    /* background-image:url('../landingemail/Header.png'); */
+    /* background-size: 100% 100%; */
+    /* background-repeat: no-repeat; */
+    background-color: #0B0B35;
+    width: 100%;
+    height : 450px;
+    padding: 5px 30px 0 50px;
+    border-top: 1px solid rgba(53, 53, 56, 0.8);
+    border-left: 1px solid rgba(53, 53, 56, 0.8);
+    border-right: 1.5px solid rgba(53, 53, 56, 0.8);
+    z-index: 10;
+    /* display: flex; */
+}
+#img-header{
+    width: 100%;
+    height: 100%;
+}
+
+.parag-content{
+   /* border: 1px solid red;  */
+   padding:0 4% 0 3%;
+   font-family : Lato;
+   font-size : 16px;
+   color : #FFFFFF;
+   color : rgb(255, 255, 255);
+   border-left: 1px solid rgba(53, 53, 56, 0.8);
+   border-right: 1.5px solid rgba(53, 53, 56, 0.8);
+   background-color: #0B0B35;
+}
+.col-3.parag-content-img-1{
+    /* border: 1px solid red; */
+    padding: 0;  
+    border-left: 1px solid rgba(53, 53, 56, 0.8);
+    height: 32%;
+    background-color: #0B0B35;
+
+}
+
+.col-3.parag-content-img-2{
+    height: 32%;
+    border-right: 1px solid rgba(53, 53, 56, 0.8);
+    padding: 0;  
+    background-color: #0B0B35;
+}
+.parag-content-img-1-sec-1, .parag-content-img-2-sec-1{
+   /* border: 1px solid red;   */
+   width: 50%;
+   height: 100%;
+   float: left;
+}
+.parag-content-img-1-sec-2, .parag-content-img-2-sec-2{
+    /* border: 1px solid blue;   */
+    width: 50%;
+    height: 100%;
+    float: right;
+ }
+
+#img-icon-tourn, #img-icon-challenge, #img-icon-match, #img-icon-ladder{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: -10px;
+    z-index: 10s;
+
+}
+
+h5{
+   text-align: center;
+    /* display: inline; */
+    font-family : Lato;
+    /* font-size : 16px; */
+    color : #FFFFFF;
+    color : rgb(255, 255, 255); 
+}
+
+.col-2.copomoney-img{
+    /* border: 1px solid red; */
+    padding: 0;
+    border-left: 1px solid rgba(53, 53, 56, 0.8);
+    height: 30%;
+    background-color: #0B0B35;
+    z-index: -10;
+}
+
+.copomoney-img img{
+    float: right;
+    display: block;
+    width: 70%;
+    padding-top: 10px;
+}
+
+.col-4.copomoney-text{
+    border-right: 1px solid rgba(53, 53, 56, 0.8);
+    height: 30%;
+    background-color: #0B0B35;
+    z-index: -10;
+}
+.copomoney-text p{
+    margin-top: 25px;
+    margin-left: 0%;
+    font-family : Lato;
+    font-size : 18px;
+    color : #FFFFFF;
+    color : rgb(255, 255, 255);
+}
+.col-4.ai-text{
+    border-left: 1px solid rgba(53, 53, 56, 0.8);
+    height: 22%;
+    background-color: #0B0B35;
+}
+.col-2.ai-img{
+    border-right: 1px solid rgba(53, 53, 56, 0.8);
+    height: 22%;
+    background-color: #0B0B35;
+}
+.ai-text{
+   
+    font-family : Lato;
+    font-size : 16px;
+    color : #FFFFFF;
+    color : rgb(255, 255, 255);
+    padding-left: 5%;
+}
+.ai-img{
+   
+    position: relative;
+    font-family : Lato;
+    font-size : 16px;
+    color : #FFFFFF;
+    color : rgb(255, 255, 255);
+}
+#img-ai{
+   width:30%
+}
+#img-ai-cv{
+    width:35%
+ }
+.ai-img div.artif{
+    font-size: 80%;
+   /* color: blue; */
+   position: absolute;
+   top:90px;
+   left: 2%;
+   margin-top: -10px;
+ }
+ .ai-img div.comp-vision{
+    font-size: 80%;
+    /* color: red; */
+    position: absolute;
+    top:90px;
+    left:60%;
+    margin-top: -10px;
+  }
+
+.ai-img img:first-child{
+    margin-right: 31%;
+}
+/* .img-bot-text{
+    border-left: 1px solid rgba(53, 53, 56, 0.8);
+} */
+.col-4.img-bot-text{
+   height: 25%;
+    border-left: 1px solid rgba(53, 53, 56, 0.8);
+    background-color: #0B0B35;
+}
+.col-2.img-bot-sec{
+    height: 25%;
+    border-right: 1px solid rgba(53, 53, 56, 0.8);
+    background-color: #0B0B35;
+}
+
+.img-bot-sec{
+    /* border-right: 1px solid rgba(53, 53, 56, 0.8); */
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    padding:0;
+    margin:0;
+}
+
+#img-bot{
+    float: right;
+    display: block;
+    width: 80%;
+    /* border-right: 1px solid rgba(53, 53, 56, 0.8); */
+}
+.img-bot-text p{
+    font-size:30px;
+    text-align:right;
+    font-family : Lato;
+    padding-top:30px;
+    color : #FFFFFF;
+    color : rgb(255, 255, 255);
+    margin-right: 0%;
+}
+.footer-top{
+    height: 14%;
+}
+.footer-text{
+    background : #1E1A1A;
+    background : rgba(30, 26, 26, 1);
+    font-family : Lato;
+    font-size : 14px;
+    color : #FFFFFF;
+    color : rgb(255, 255, 255);
+    padding:0 0 0 20px;
+    margin:0;
+    height: 100%;
+}
+.footer-btn{
+    background : #1E1A1A;
+  background : rgba(30, 26, 26, 1);
+  font-family : Lato;
+    font-size : 16px;
+    color : #FFFFFF;
+    color : rgb(255, 255, 255);
+    padding:20px 0 0 20px;
+    margin:0;
+    height: 100%;
+}
+.footer-btn button{
+    border-radius: 10px;
+    border: none;
+    padding: 5px 20px;
+    /* background-color: rgba(51,51,102,1); */
+   
+}
+.footer-btn-icon{
+    background : #1E1A1A; 
+    background : rgba(30, 26, 26, 1);   
+    padding:0;
+    margin:0;
+    z-index: -10;
+    height: 100%;
+}
+
+#img-fac{
+    width: 30px;
+    height: 30px;
+    z-index: 10;
+    background-color: #1E1A1A;
+    margin: 20px 10px 0px 10px;
+}
+.footer-bottom{
+    background : #1E1A1A;
+    background : rgba(30, 26, 26, 1);
+    font-family : Lato;
+      font-size : 8px;
+      color : #FFFFFF;
+      color : rgb(255, 255, 255);
+      text-align: center;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+        </style>
+    </head>
+
+    <body>
+
+        
+            <div class="row ">
+                <div class="col-12"></div>
+                    <div class="col-3 left"></div>
+                    <div class="col-6 midd">
+                      <img id="img-header" src="https://drive.google.com/uc?id=1IgUAQkmfLAam6omzmt0IBjvRyzsw49Q5">
+                        <!-- <div class="head-title"> BIENVENIDO&nbsp;A</div>
+                        <div class="img-logo-head">
+                            <img id="img-logo" src="landingemail/playroommain.png">
+                            <div class="game-plt">Gaming Platform</div>
+                        </div>
+                        <div class="img-icon">
+                            <img id="img-icon-left" src="landingemail/imagetopleft_1_.png">
+                            <img id="img-icon-right" src="landingemail/imagetopright_2_.png">
+                        </div> -->
+                    </div>
+                    <div  class="col-3 right"></div>
+            
+            
+            </div>
+            <div class="row ">
+                <div class="col-3 left"></div>
+                <div class="col-6 parag-content">
+                    <p>¡Hola <username>! Gracias por unirte a Playroom. </p>
+                        <p>Muy pronto estaras disfrutando de la plataforma next-gen que te va a permitir competir y desarrollar
+                            el espiritu gamer que todos tenemos dentro!</p>
+                            <p><b>En Playroom queremos que todos los gamers tengan acceso a participar en modalidades competitivas. </b></p>
+                    </div>
+                    <div  class="col-3 right"></div>
+            
+            </div>
+            
+            <div class="row ">
+                <div class="col-3 left"></div>
+                <div class="col-3 parag-content-img-1">
+                  <div class="parag-content-img-1-sec-1"><h5>TOURNAMENT</h5>
+                    <img id="img-icon-tourn" src="https://drive.google.com/uc?id=1vB2_djZhrcC3OZc5YRb2py6couCRwyjk"></div>
+                    
+                  <div class="parag-content-img-1-sec-2"><h5>CHALLENGE ROOM</h5>
+                  <img id="img-icon-challenge" src="https://drive.google.com/uc?id=1s89WPZ1zqrYF5WpzhMAIi6TeEAH7re9k"></div>
+                    
+                </div>
+                
+                <div class="col-3 parag-content-img-2">
+                  <div class="parag-content-img-2-sec-1"><h5>MATCHMAKING</h5>
+                    <img id="img-icon-match" src="https://drive.google.com/uc?id=1VoE3yuvbWbP59Vjre1eWCbUV2i4-Q2Vp"></div>
+                    
+                    <div class="parag-content-img-2-sec-2"><h5>LADDER</h5>
+                      <img id="img-icon-ladder" src="https://drive.google.com/uc?id=1wWMkStLAaqw3UTpqWV-CGzsZdMPkTmEl"></div>
+                    
+                </div>
+            
+                <div  class="col-3 right"></div>
+            
+                  </div>  
+                  <div class="row">
+                    <div class="col-3 left"></div>
+                    <div class="col-2 copomoney-img">
+                        <img id="img-icon-cop" src="https://drive.google.com/uc?id=1CUUhH1yNiajrWOQ6eMcIT5PkOMSIwPgJ">
+                    </div>
+                    <div class="col-4 copomoney-text" >
+                        <p>Recolecta tus ganancias y utilizalas dentro de nuestro STORE
+                            o que hagas cash-back a tus cuentas bancarias!</p>
+                    </div>
+                    <div class="col-3 right"></div>
+            
+                  </div>
+            
+                  <div class="row">
+                    <div class="col-3 left"></div>
+                    <div class="col-4 ai-text">
+                        <p>Con un proceso automatizado desde el proceso de registro,
+                            creacion de competencia hasta la recoleccion de premios.
+                            A traves de Computer Vision y Artificial Intelligence.</p>
+                    </div>
+                    <div class="col-2 ai-img" >
+                      <img id="img-ai" src="https://drive.google.com/uc?id=1rWUv-ISHmgPuCPL9pVksCueGRXrcydie">
+                    <div class="artif">Artificial Intelligence</div>
+                    
+                      <img id="img-ai-cv" src="https://drive.google.com/uc?id=1wlAUjK_gHDzFnZkVyw9t6SD_fwr1lShi">
+                        <div class="comp-vision">Computer Vision</div>
+                      
+                    </div>
+                    <div class="col-3 right"></div>
+            
+                  </div>
+            
+            
+                  <div class="row">
+                    <div class="col-3 left"></div>
+                    <div class="col-4 img-bot-text">
+                        <p>Esta aventura recien comienza!</p>
+                    </div>
+                    <div class="col-2 img-bot-sec" >
+                      <img id="img-bot" src="https://drive.google.com/uc?id=1GP4RmCJWesEFK099bxMQ8d_ZhB3D5TiD">
+                    
+                    </div>
+                    <div class="col-3 right"></div>
+            
+                  </div>
+            
+                  <div class="row footer-top">
+                    <div class="col-3 left"></div>
+                    <div class="col-2 footer-text">
+                        <p>Si tienes mas dudas, acercate por el Discord
+                            a saludar y a preguntar un poco mas!</p>
+                    </div>
+                    <div class="col-2 footer-btn" >
+                      <button style="background: url(landingemail/discordbutton_1_.png)" >UNIRSE A DISCORD</button>
+                    
+                    </div>
+                    <div class="col-2 footer-btn-icon" >
+                       <a href="https://instagram.com"><img id="img-fac"  src="landingemail/ig.png"></a> 
+                       <a  href="https://facebook.com"> <img id="img-fac"  src="landingemail/fb.png"></a>
+                       <a href="https://gmail.com"><img id="img-fac"   src="landingemail/twitch.png"></a> 
+                       <a href="https://twitter.com"><img id="img-fac"   src="landingemail/tw.png"></a> 
+                      
+                      </div>
+                    <div class="col-3 right"></div>
+            
+                  </div>
+                  <div class="row">
+                      <div class="col-3 left"></div>
+                      <div class="col-6 footer-bottom">Playroom Technologies Inc. no es dueña de ninguna imagen utilizada para el landing email de registro. Todos los creditos para sus respectivos dueños Adobe Stock Photo y Freepik.</div>
+                      <div class="col-3 right"></div>
+                  </div>
+            
+            
+            
+
+
+
+        <!-- <div>
+        <!-- <h1 style="color: blue;">Hello TED</h1> -->
+        <!-- <h1>tff</h1> -->
+        <!-- <img src="{{ url_for('static', filename='images/ai.png') }}" /> -->
+        <!-- <img src="//drive.google.com/uc?id=15mUAtotb9Op9H3abPLZsd5yLPY_rjMB1" /> -->
+       
+        <!-- <img src=" https://cms-assets.tutsplus.com/uploads/users/30/posts/29642/preview_image/vue-2.png" /> -->
+        <!-- <img src="https://drive.google.com/uc?id=15mUAtotb9Op9H3abPLZsd5yLPY_rjMB1" /> -->
+    
+    <!-- </div> --> 
+    </body>
+</htm>
